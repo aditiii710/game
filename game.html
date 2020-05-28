@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<hmtl lang="en">
+<head>
+<title>TYPING GAME</title>
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Ubuntu" />
+<style>
+body{
+    font-family: 'ubuntu' , cursive;
+    background-color: black;
+}
+#h2{
+    color: white;
+    display: inline-block;
+    margin-left: 550px;
+    font-size: 40px;
+}
+#h3{
+    color: white; 
+    display: inline-block;  
+    margin-left: 350px;     
+    font-size: 30px;   
+}
+#type{
+    height: 200px;
+    width: 33%;                                                        
+    margin-left: 500px;                         
+    margin-top: 180px;                                  
+}
+#submit{
+    padding: 10px 30px;
+    border-radius: 20px;
+    margin-left: 620px;
+    margin-top: 150px;
+    font-family: 'ubuntu' , cursive;
+    width: 10%;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #a1a1d4;
+    color: white;
+}
+#retry{
+    padding: 10px 30px;
+    border-radius: 20px;
+    font-family: 'ubuntu' , cursive; cursive; cursive; cursive; cursive; cursive; cursive; cursivee
+    width: 10%;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #a1a1d4;
+    color: white;
+}
+#timer{
+    color: #a1a1d4;
+    margin-left: 1145px;
+    margin-top: -300px;
+    font-size: 50px;      
+}
+#writtenText{
+    color: white;
+    margin-left: 300px;
+    font-size: 30px;
+    width: 60%;
+    text-align: center; 
+    margin-top: 70px;
+    color: #a1a1d4;
+}
+#textarea{
+    margin-top: -100px;
+    font-size: 30px;
+    margin-left: -80px;
+    font-family: 'ubuntu' , cursive;
+}
+</style>
+</head>
+<body>
+<div id="title">
+<h2 id="h2">TYPING TEST</h2>
+<h3 id="h3">Try typing and check your typing speed and accuracy</h3>
+</div>
+<div id="writtenText"></div>
+<div id="type">
+<textarea id="textarea" name="myText" cols="40" rows="5"></textarea>
+</div>
+<div id="timer">0</div>
+<button id="submit" class="button">SUBMIT</button>
+<button id="retry" class="button">RETRY</button>
+<script src="game.js"></script>
+</body>
+</html>
